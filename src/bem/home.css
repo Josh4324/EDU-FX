@@ -1,0 +1,273 @@
+.home-section1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+}
+
+.htext1 {
+  color: #048cc7;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  width: 50%;
+  margin-top: 120px;
+}
+
+.htext2 {
+  color: #232020;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70%;
+  line-height: 2rem;
+}
+
+.home-section2 {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.htext3 {
+  color: #048cc7;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 150px;
+}
+
+.htext4 {
+  color: #232020;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.htext5 {
+  color: #232020;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.home-section3 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.htext6 {
+  color: #232020;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 44px;
+}
+
+.htext7 {
+  border-bottom: 1px solid #c4bebe;
+  color: #232020;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 16px;
+  padding-top: 24px;
+}
+
+.but {
+  border-radius: 8px;
+  background: #048cc7;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 44px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 64px;
+}
+
+.home-section4 {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.htext8 {
+  color: #048cc7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.htext9 {
+  color: #232020;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.home-section5 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.htext10 {
+  color: #232020;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.card {
+  border-radius: 10px;
+  background: white;
+  width: 500px;
+  height: 200px;
+  fill: var(--default-white, #fff);
+  filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-bottom: 24px;
+  color: #18191f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 140%;
+}
+.cardlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home-section6 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.htext11 {
+  color: #048cc7;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.htext12 {
+  color: #232020;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 80%;
+}
+
+.htext13 {
+  color: #048cc7;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 64px;
+  width: 50%;
+}
+
+.htext14 {
+  color: #232020;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 80%;
+}
+
+.img2 {
+  width: 286px;
+  height: 286px;
+  margin-top: 200px;
+}
+
+.home-section7 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #048cc7;
+  margin-top: 129px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+.htext15 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  padding-top: 42px;
+}
+
+.but2 {
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 44px;
+  color: #048cc7;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 64px;
+}

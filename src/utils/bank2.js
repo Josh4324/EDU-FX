@@ -1,0 +1,28 @@
+const BK = {
+  214: "FCMB",
+  215: "Unity bank",
+  221: "StanbicIBTC",
+  232: "Sterling Bank",
+  "044": "Access Bank",
+  "070": "Fidelity Bank",
+  "014": "Afribank",
+  "085": "Finbank",
+  "068": "Standard Chartered Bank",
+  "023": "Citibank",
+  "058": "Guaranty Trust Bank",
+  "063": "Diamond Bank",
+  "069": "Intercontinental Bank",
+  "033": "United Bank for Africa",
+  "050": "Ecobank",
+  "056": "Oceanic Bank",
+  "032": "Union Bank",
+  "040": "Equitorial Trust Bank",
+  "082": "BankPhb",
+  "035": "Wema bank",
+  "011": "First Bank",
+  "076": "Skye Bank",
+  "057": "Zenith Bank",
+  "084": "SpringBank",
+};
+
+export default BK;
