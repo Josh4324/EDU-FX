@@ -1,0 +1,184 @@
+.logo2 {
+  padding-top: 39px;
+  padding-left: 32px;
+}
+
+.reg-text1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #1b1c1e;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #1b1c1e;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1b1c1e;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.rform {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rinput {
+  width: 100%;
+  height: 72px;
+  padding-left: 15px;
+  background: #ffffff;
+  border: 1px solid #1b1c1e;
+  border-radius: 4px;
+}
+
+.rlabel {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1b1c1e;
+  padding-bottom: 8px;
+  display: block;
+}
+
+.rbox {
+  margin-bottom: 32px;
+}
+
+.rbut {
+  width: 100%;
+  height: 56px;
+  border: none;
+  display: block;
+
+  background-color: #048cc7;
+  border-radius: 4px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #1b1c1e;
+}
+
+.reg-text2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #1b1c1e;
+}
+
+.reg-text3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #048cc7;
+  padding-left: 10px;
+}
+
+.reg-flex {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.log-text1 {
+  width: 40%;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #1b1c1e;
+  text-align: center;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.log-flex {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.reg-text4 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #048cc7;
+  text-align: center;
+}
+
+.forget {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.reset {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.forget-logo {
+  text-align: center;
+  display: block;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.ftext1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #1f1f1f;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.ftext2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #1f1f1f;
+  margin-bottom: 64px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}

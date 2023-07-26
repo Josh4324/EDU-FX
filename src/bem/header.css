@@ -10,10 +10,9 @@
 .logo {
   color: #000;
   font-family: Aladin;
-  font-size: 32px;
+  width: 100px;
   font-style: normal;
   font-weight: 400;
-  padding-top: 15px;
 }
 
 .hbut {
