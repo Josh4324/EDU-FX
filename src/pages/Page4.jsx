@@ -8,17 +8,19 @@ export default function Page4() {
   const [state3, setState3] = useState(false);
   const [state4, setState4] = useState(false);
   const [state5, setState5] = useState(false);
-  const [state6, setState6] = useState(false);
+
   return (
     <div>
       <Header />
-      <div className="ctext1">FX Mastery Accelerator - Technical Analysis</div>
+      <div className="ctext1">
+        FX Mastery Accelerator - Strategy Development
+      </div>
 
       <div className="cpage">
         <div>
-          <div className="cpinner">Technical Analysis</div>
+          <div className="cpinner">Strategy Development</div>
           <div className="cpinner2">
-            <div>Supply and demand zones 1 </div>
+            <div>Top-Down Analysis 1 </div>
             <div
               style={{ cursor: "pointer" }}
               onClick={() => setState1(!state1)}
@@ -31,7 +33,7 @@ export default function Page4() {
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube-nocookie.com/embed/rK0lvkSZhsk"
+                src="https://www.youtube-nocookie.com/embed/ARrQ0xKj8lI"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
@@ -41,7 +43,7 @@ export default function Page4() {
           ) : null}
 
           <div className="cpinner2">
-            <div>Supply and demand zones 2 </div>
+            <div>Top-Down Analysis 2 </div>
             <div
               style={{ cursor: "pointer" }}
               onClick={() => setState2(!state2)}
@@ -54,7 +56,7 @@ export default function Page4() {
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube-nocookie.com/embed/osLbEgtHjgE"
+                src="https://www.youtube-nocookie.com/embed/pkRkdYAD0_Y"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;controls=0;showinfo=0;mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;"
@@ -64,7 +66,7 @@ export default function Page4() {
           ) : null}
 
           <div className="cpinner2">
-            <div>Market Structure </div>
+            <div>Golden Zone </div>
             <div
               style={{ cursor: "pointer" }}
               onClick={() => setState3(!state3)}
@@ -77,7 +79,7 @@ export default function Page4() {
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube-nocookie.com/embed/nril7fYmOE8 "
+                src="https://www.youtube-nocookie.com/embed/jorD-EApfMU"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;controls=0;showinfo=0;mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;"
@@ -87,7 +89,7 @@ export default function Page4() {
           ) : null}
 
           <div className="cpinner2">
-            <div>Trading with Fibonacci </div>
+            <div>Trend continuation & reversal </div>
             <div
               style={{ cursor: "pointer" }}
               onClick={() => setState4(!state4)}
@@ -100,7 +102,7 @@ export default function Page4() {
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube-nocookie.com/embed/FDZUWi12bOY "
+                src="https://www.youtube-nocookie.com/embed/1gcZhYw1xlI"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;controls=0;showinfo=0;mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;"
@@ -110,7 +112,7 @@ export default function Page4() {
           ) : null}
 
           <div className="cpinner2">
-            <div>Multiple Timeframe Analysis 1 </div>
+            <div>Backtesting your strategy</div>
             <div
               style={{ cursor: "pointer" }}
               onClick={() => setState5(!state5)}
@@ -123,30 +125,7 @@ export default function Page4() {
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube-nocookie.com/embed/h2jgVPJhY24 "
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;controls=0;showinfo=0;mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;"
-                allowfullscreen
-              ></iframe>
-            </div>
-          ) : null}
-
-          <div className="cpinner2">
-            <div>Multiple Timeframe Analysis 2 </div>
-            <div
-              style={{ cursor: "pointer" }}
-              onClick={() => setState6(!state6)}
-            >
-              {state6 ? "Close" : "View"}
-            </div>
-          </div>
-          {state6 ? (
-            <div className="video">
-              <iframe
-                width="100%"
-                height="600"
-                src="https://www.youtube-nocookie.com/embed/_0ng-tyLgPI"
+                src="https://www.youtube-nocookie.com/embed/crwL59DwxRE"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;controls=0;showinfo=0;mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;"

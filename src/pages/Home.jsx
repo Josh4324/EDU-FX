@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -49,7 +50,10 @@ export default function Home() {
             Smart Traders Premium offers profitable trade opportunities in the
             FX market through quality trade signals
           </div>
-          <button className="but">Join Premium</button>
+
+          <Link to="/register">
+            <button className="but">Register</button>
+          </Link>
         </section>
         <section className="home-section5">
           <div className="htext10">Hear from our students</div>

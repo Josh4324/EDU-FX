@@ -14,7 +14,7 @@
 }
 
 .text {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -24,7 +24,7 @@
 }
 
 .text1 {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -49,7 +49,7 @@
 }
 
 .rlabel {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -70,7 +70,7 @@
 
   background-color: #048cc7;
   border-radius: 4px;
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -79,7 +79,7 @@
 }
 
 .reg-text2 {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -87,7 +87,7 @@
 }
 
 .reg-text3 {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -107,7 +107,7 @@
 
 .log-text1 {
   width: 40%;
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -129,7 +129,7 @@
 }
 
 .reg-text4 {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -161,7 +161,7 @@
 }
 
 .ftext1 {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -171,7 +171,7 @@
 }
 
 .ftext2 {
-  font-family: "IBM Plex Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
