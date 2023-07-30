@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import { EduContext } from "../context/context";
 
 export default function Course() {
+  const { Logout } = useContext(EduContext);
   const [state1, setState1] = useState(false);
   const [state2, setState2] = useState(false);
   return (
@@ -61,6 +63,15 @@ export default function Course() {
 
           <div className="bflex">
             <button className="pbut">Prev</button>
+
+            <button
+              style={{ backgroundColor: "red", color: "white" }}
+              onClick={Logout}
+              className="pbut"
+            >
+              Logout
+            </button>
+
             <Link to="/page2">
               <button className="pbut">Next</button>
             </Link>

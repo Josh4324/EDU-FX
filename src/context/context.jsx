@@ -11,6 +11,8 @@ export const EduProvider = ({ children }) => {
   const token = localStorage.getItem("invest-token");
   axios.defaults.headers.common["Authorization"] = "JWT " + token;
 
+
+
   const SignUp = async (data) => {
     try {
       const response = await axios.post(`${http}/api/v1/user/signup`, data);
@@ -72,7 +74,9 @@ export const EduProvider = ({ children }) => {
   };
 
   const Logout = async () => {
-    localStorage.removeItem("invest-token");
+    localStorage.removeItem("edu-token");
+    localStorage.removeItem("edu-role");
+    localStorage.removeItem("edu-status");
     navigate("/login");
   };
 

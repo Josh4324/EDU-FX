@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import { EduContext } from "../context/context";
 
 export default function Page4() {
+  const { Logout } = useContext(EduContext);
   const [state1, setState1] = useState(false);
   const [state2, setState2] = useState(false);
   const [state3, setState3] = useState(false);
   const [state4, setState4] = useState(false);
   const [state5, setState5] = useState(false);
-
   return (
     <div>
       <Header />
@@ -138,6 +139,14 @@ export default function Page4() {
             <Link to="/page3">
               <button className="pbut">Prev</button>
             </Link>
+
+            <button
+              style={{ backgroundColor: "red", color: "white" }}
+              onClick={Logout}
+              className="pbut"
+            >
+              Logout
+            </button>
 
             <Link to="/page5">
               <button className="pbut">Next</button>
