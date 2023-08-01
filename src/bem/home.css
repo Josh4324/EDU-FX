@@ -271,3 +271,9 @@
   padding-right: 80px;
   height: 64px;
 }
+
+.hflex {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}

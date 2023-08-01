@@ -4,6 +4,10 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  let token = localStorage.getItem("edu-token");
+  let role = localStorage.getItem("edu-role");
+  let status = localStorage.getItem("edu-status");
+
   return (
     <div>
       <Header />
@@ -42,7 +46,9 @@ export default function Home() {
             <div className="htext7">Risk management</div>
           </div>
 
-          <button className="but">Get Full Access</button>
+          <Link to="/forex">
+            <button className="but">Get Full Access</button>
+          </Link>
         </section>
         <section className="home-section4">
           <div className="htext8">Smart Traders Premium</div>
@@ -118,8 +124,14 @@ export default function Home() {
             Join our community of smart traders through our general telegram
             group
           </div>
-
-          <button className="but2">Join Telegram</button>
+          <a
+            href="https://t.me/SmartTraders_Academy"
+            target="_blank"
+            style={{ color: "white", cursor: "pointer" }}
+            rel="noreferrer"
+          >
+            <button className="but2">Join Telegram</button>
+          </a>
         </section>
       </main>
       <Footer />

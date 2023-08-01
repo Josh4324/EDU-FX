@@ -14,6 +14,7 @@ export default function Login() {
 
   const createSignUpMutation = useMutation(Login, {
     onSuccess: (data) => {
+      console.log(data);
       if (data.code === 200) {
         localStorage.setItem("edu-token", data.data.token);
         localStorage.setItem("edu-role", data.data.user.role);
@@ -21,7 +22,8 @@ export default function Login() {
         if (data.data.user.role === "admin") {
           navigate("/admin");
           toast.success("User Login Successful");
-        } else if (data.data.user.hasPaid === "true") {
+        } else if (data.data.user.hasPaid === true) {
+          console.log("heeer");
           navigate("/forex");
           toast.success("User Login Successful");
         } else if (data.data.user.hasPaid === false) {
