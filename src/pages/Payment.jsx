@@ -17,6 +17,7 @@ export default function Payment() {
   });
 
   useEffect(() => {
+    console.log(data);
     console.log(data?.data?.hasPaid);
     if (data?.data?.hasPaid === true) {
       navigate("/forex");
@@ -89,6 +90,9 @@ export default function Payment() {
           </div>
 
           <button className="rbut">Confirm Payment</button>
+          <Link to="/forex">
+            <button className="but">Get Full Access</button>
+          </Link>
         </form>
       </div>
     </div>
