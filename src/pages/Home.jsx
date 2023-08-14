@@ -50,16 +50,34 @@ export default function Home() {
             <button className="but">Get Full Access</button>
           </Link>
         </section>
-        <section className="home-section4">
-          <div className="htext8">Smart Traders Premium</div>
-          <div className="htext9">
-            Smart Traders Premium offers profitable trade opportunities in the
-            FX market through quality trade signals
-          </div>
 
-          <Link to="/register">
-            <button className="but">Register</button>
-          </Link>
+        <section className="home-section4">
+          <div className="home-section4-box2">
+            <div className="htext16">ST Academy Mentorship</div>
+            <div className="htext17">
+              The Mentorship program is designed to help mentees become
+              profitable traders. Get full access to the following :
+            </div>
+            <ul>
+              <li className="htext17"> Access to the course</li>
+              <li className="htext17"> Live trade signals</li>
+              <li className="htext17"> Weekly Trading overview</li>
+              <li className="htext17"> Live funded account</li>
+              <li className="htext17"> Passing Prop firm challenge</li>
+            </ul>
+          </div>
+          <div className="home-section4-box">
+            <div className="htext18">
+              <span className="span1">$100</span>
+              <span>$80</span>
+            </div>
+            <div className="htext19">(One-time payment)</div>
+            <div>
+              <Link to="/forex">
+                <button className="but3">Join Mentorship</button>
+              </Link>
+            </div>
+          </div>
         </section>
         <section className="home-section5">
           <div className="htext10">Hear from our students</div>
