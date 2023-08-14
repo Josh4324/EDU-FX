@@ -1,7 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useContext, useRef } from "react";
+import { EduContext } from "../context/context";
+import { useMutation } from "react-query";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 export default function Payment() {
+  const { UploadImage } = useContext(EduContext);
+  const imageRef = useRef();
+
+  const imageUpdate = useMutation(UploadImage, {
+    onSuccess: (data) => {
+      console.log(data);
+      if (data.code === 200) {
+        toast.success("Image upload complete");
+        //window.location.reload();
+      } else {
+        toast.error("An error occured");
+      }
+    },
+  });
+
+  const handleImageUpdate = (evt) => {
+    evt.preventDefault();
+    toast.info("Updating Information.....");
+    const file = imageRef.current.files[0];
+    let formData = new FormData();
+    console.log(file);
+    formData.append("image", file);
+    imageUpdate.mutate(formData);
+  };
+
   return (
     <div>
       <div>
@@ -15,7 +45,7 @@ export default function Payment() {
           Payment Page
         </div>
 
-        <form className="rform">
+        <form onSubmit={handleImageUpdate} className="rform">
           <div className="rbox">
             <div className="text1">Bank Details</div>
 
@@ -42,7 +72,7 @@ export default function Payment() {
             >
               Upload Payment Evidence
             </label>
-            <input type="file" required />
+            <input ref={imageRef} type="file" required />
           </div>
 
           <button className="rbut">Confirm Payment</button>
