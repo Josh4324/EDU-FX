@@ -8,7 +8,7 @@ export const EduContext = React.createContext();
 
 export const EduProvider = ({ children }) => {
   const navigate = useNavigate();
-  const token = localStorage.getItem("invest-token");
+  const token = localStorage.getItem("edu-token");
   axios.defaults.headers.common["Authorization"] = "JWT " + token;
 
 
