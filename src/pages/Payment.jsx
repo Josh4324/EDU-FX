@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useContext, useRef } from "react";
 import { EduContext } from "../context/context";
-import { useMutation } from "react-query";
+import { useMutation, useQuery } from "react-query";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 export default function Payment() {
-  const { UploadImage } = useContext(EduContext);
+  const { UploadImage, getUserData } = useContext(EduContext);
   const imageRef = useRef();
+  const navigate = useNavigate();
+
+  const { data } = useQuery("user", getUserData, {
+    // Enable caching by setting cacheTime
+    cacheTime: 60000, // 1 minute (in milliseconds)
+  });
+
+  useEffect(() => {
+    console.log(data?.data?.hasPaid);
+    if (data?.data?.hasPaid === true) {
+      navigate("/forex");
+    }
+  }, []);
 
   const imageUpdate = useMutation(UploadImage, {
     onSuccess: (data) => {
