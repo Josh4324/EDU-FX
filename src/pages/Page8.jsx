@@ -29,7 +29,7 @@ export default function Page8() {
               <iframe
                 width="100%"
                 height="600"
-                src="https://www.youtube-nocookie.com/embed/aHmgyRd48S0 "
+                src="https://www.youtube-nocookie.com/embed/Y2U4Goi80as"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"

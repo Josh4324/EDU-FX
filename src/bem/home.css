@@ -282,7 +282,7 @@
 
 .htext16 {
   color: #048cc7;
-  font-family: Cooper Black;
+  font-family: Inter;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -295,6 +295,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 .home-section4-box {
   width: 40%;
   height: 414px;
@@ -302,6 +303,7 @@
   border-radius: 8px;
   border: 1px solid #048cc7;
 }
+
 .home-section4-box2 {
   width: 50%;
 }
@@ -346,4 +348,130 @@
   padding-right: 80px;
   height: 64px;
   margin-top: 24px;
+}
+
+@media (max-width: 500px) {
+  .home-section1 {
+    width: 90%;
+    flex-direction: column;
+    margin-top: 56px;
+  }
+
+  .htext1 {
+    font-size: 32px;
+    font-style: normal;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .htext2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 24px;
+  }
+
+  .img1 {
+    width: 100%;
+  }
+
+  .home-section4 {
+    width: 80%;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-section6 {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hflex {
+    display: flex;
+    width: 180px;
+  }
+
+  .htext3 {
+    font-size: 32px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 45%;
+  }
+
+  .home-section2 {
+    width: 90%;
+    margin-left: 24px;
+    text-align: left;
+  }
+
+  .htext4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .htext5 {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .home-section3 {
+    width: 90%;
+    margin-left: 24px;
+    margin-top: 64px;
+  }
+
+  .htext6 {
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .htext7 {
+    font-size: 14px;
+    padding-bottom: 16px;
+    padding-top: 24px;
+  }
+
+  .htext16 {
+    color: #048cc7;
+    font-family: Inter;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .htext17 {
+    color: #232020;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .home-section4 {
+    width: 80%;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-section4-box {
+    width: 90%;
+    height: 414px;
+    padding: 23px 16px;
+    border-radius: 8px;
+    border: 1px solid #048cc7;
+  }
+
+  .home-section4-box2 {
+    width: 100%;
+  }
 }
