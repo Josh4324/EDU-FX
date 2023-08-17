@@ -7,6 +7,7 @@ import "./bem/footer.css";
 import "./bem/register.css";
 import "./bem/home.css";
 import "./bem/course.css";
+import "./bem/payment.css";
 import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
