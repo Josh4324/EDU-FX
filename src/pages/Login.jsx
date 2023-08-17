@@ -51,9 +51,7 @@ export default function Login() {
       </div>
 
       <div>
-        <div style={{ marginTop: "200px" }} className="reg-text1">
-          FX Mastery Accelerator
-        </div>
+        <div className="reg-text1">FX Mastery Accelerator</div>
 
         <form onSubmit={handleSubmit} className="rform">
           <div className="rbox">

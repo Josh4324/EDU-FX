@@ -474,4 +474,89 @@
   .home-section4-box2 {
     width: 100%;
   }
+
+  .card-text {
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .card {
+    border-radius: 10px;
+    background: white;
+    width: 500px;
+    height: 200px;
+    fill: var(--default-white, #fff);
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 24px;
+    color: #18191f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 140%;
+  }
+
+  .htext10 {
+    font-size: 18px;
+
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .htext11 {
+    color: #048cc7;
+    font-family: Inter;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .htext12 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 100%;
+  }
+
+  .htext13 {
+    font-size: 32px;
+
+    margin-top: 32px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .htext14 {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .htext15 {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 80%;
+    padding-top: 42px;
+  }
+
+  .home-section7 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #048cc7;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+  }
 }

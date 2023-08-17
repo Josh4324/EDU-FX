@@ -1,4 +1,4 @@
-.ftext1 {
+.ftext11 {
   color: #232020;
   font-family: Inter;
   font-size: 32px;
@@ -26,4 +26,32 @@
 
 .social {
   margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .ftext11 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  .ftext2 {
+    color: #232020;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .footer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .img2 {
+    display: none;
+  }
 }

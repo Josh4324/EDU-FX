@@ -83,30 +83,32 @@ export default function Home() {
           <div className="htext10">Hear from our students</div>
           <div className="cardlist">
             <div className="card">
-              <div>The training improved my understanding of Forex trading</div>
-              <div>-Samson O</div>
+              <div className="card-text">
+                The training improved my understanding of Forex trading
+              </div>
+              <div className="card-text">-Samson O</div>
             </div>
 
             <div className="card">
-              <div>
+              <div className="card-text">
                 The training has helped me to become a profitable trader
               </div>
-              <div>-Alex</div>
+              <div className="card-text">-Alex</div>
             </div>
 
             <div className="card">
-              <div>
+              <div className="card-text">
                 I have enrolled in many courses but this actually simplifies
                 forex trading, I made $1500 in my first month
               </div>
-              <div>-Adeleke</div>
+              <div className="card-text">-Adeleke</div>
             </div>
 
             <div className="card">
-              <div>
+              <div className="card-text">
                 I learnt to make money from Forex without using my capital
               </div>
-              <div>-Dorathy</div>
+              <div className="card-text">-Dorathy</div>
             </div>
           </div>
         </section>
